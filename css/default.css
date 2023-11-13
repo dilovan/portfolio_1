@@ -152,7 +152,7 @@
         height: 10px;
         width: 10px;
         border-radius: 50%;
-        border:1px dashed  #781bf1;
+        border:1px dashed  #fff;
         animation: roT 1s linear infinite;
     }
     /* big gear */
@@ -164,7 +164,7 @@
         height: 50px;
         width: 50px;
         border-radius: 50%;
-        border:1px dashed #781bf1;
+        border:1px dashed #fff;
         box-shadow: inset 0px 0px 1px 4px #333333,
                     inset 0px 0px 1px 19px #781bf1;
         animation: roTL 10s linear infinite;
@@ -1747,7 +1747,8 @@
         box-shadow: none;
         border: 3px solid #ffa500;
     }
-    .masonry figure:has(.icons) .icons:hover{
+/*  .masonry figure:has(.icons) .icons:hover{ */
+    .masonry figure .icons:hover{
         border: 20px solid #ffffff;
         background-color: #00000055;
         opacity: 1;
